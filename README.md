@@ -1,20 +1,20 @@
 # AlgoLab - Algoritmos Front-End
 
-Aplicacao web para explorar e executar exemplos de algoritmos em Java e JavaScript. A interface funciona diretamente no navegador e nao exige um servidor backend.
+Aplicação web para explorar e executar exemplos de algorítmos em Java e JavaScript. A interface funciona diretamente no navegador e não exige um servidor backend.
 
 ## Requisitos
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - Um navegador atualizado, como Google Chrome, Microsoft Edge ou Mozilla Firefox
-- Git, caso o projeto seja obtido de um repositorio remoto
+- Git, caso o projeto seja obtido de um repositório remoto
 
-Java e Node.js nao sao necessarios para abrir a interface. Eles sao opcionais caso voce queira executar os arquivos-fonte Java ou JavaScript diretamente pelo terminal.
+Java e Node.js não são necessários para abrir a interface. Eles são opcionais caso voce queira executar os arquivos-fonte Java ou JavaScript diretamente pelo terminal.
 
 ## 1. Obter e sincronizar o projeto no VS Code
 
-### Opcao A: clonar um repositorio Git
+### Opção A: clonar um repositório Git
 
-1. Instale o Git, se ainda nao estiver instalado.
+1. Instale o Git, se ainda não estiver instalado.
 2. Abra o VS Code.
 3. Abra o terminal integrado pelo menu **Terminal > Novo Terminal**.
 4. Navegue ate a pasta onde deseja salvar o projeto:
@@ -36,35 +36,35 @@ Java e Node.js nao sao necessarios para abrir a interface. Eles sao opcionais ca
    code .
    ```
 
-7. Para sincronizar alteracoes futuras com o repositorio, use o menu **Source Control** do VS Code e clique em **Sync Changes**. Pelo terminal, o comando equivalente e:
+7. Para sincronizar alterações futuras com o repositório, use o menu **Source Control** do VS Code e clique em **Sync Changes**. Pelo terminal, o comando equivalente é:
 
    ```powershell
    git pull
    ```
 
-> Substitua `URL_DO_REPOSITORIO` pelo endereco Git fornecido pelo responsavel pelo projeto.
+> Substitua `URL_DO_REPOSITORIO` pelo endereço Git fornecido pelo responsável pelo projeto.
 
-### Opcao B: abrir uma pasta ja existente
+### Opção B: abrir uma pasta já existente
 
 1. Extraia ou copie a pasta `AlgoritmosFront-End` para o computador.
 2. No VS Code, selecione **File > Open Folder...**.
 3. Escolha a pasta `AlgoritmosFront-End`.
 4. Confirme que a arvore de arquivos contem `index.html`, `app.js` e `styles.css` na raiz.
 
-## 2. Executar a aplicacao
+## 2. Executar a aplicação
 
 ### Forma mais simples: abrir o HTML
 
-1. No Explorer do VS Code, clique com o botao direito em `index.html`.
+1. No Explorer do VS Code, clique com o botão direito em `index.html`.
 2. Selecione **Reveal in File Explorer**.
 3. Na pasta aberta, clique duas vezes em `index.html`.
-4. A aplicacao sera aberta no navegador.
+4. A aplicação será aberta no navegador.
 
-Tambem e possivel arrastar o arquivo `index.html` para uma janela do navegador.
+Tambem é possivel arrastar o arquivo `index.html` para uma janela do navegador.
 
-### Opcao recomendada: extensao Live Server
+### Opção recomendada: extensão Live Server
 
-A extensao Live Server atualiza o navegador automaticamente quando os arquivos sao alterados.
+A extensão Live Server atualiza o navegador automaticamente quando os arquivos são alterados.
 
 1. No VS Code, abra **Extensions** (`Ctrl+Shift+X`).
 2. Pesquise por **Live Server**, de autoria de Ritwick Dey.
@@ -75,19 +75,19 @@ A extensao Live Server atualiza o navegador automaticamente quando os arquivos s
 
 Para encerrar, clique novamente em **Port: 5500** na barra de status ou feche o servidor pelo terminal.
 
-## 3. Usar a aplicacao
+## 3. Usar a aplicação
 
 1. Escolha **Java** ou **JavaScript** no menu lateral.
-2. Selecione um algoritmo.
-3. Informe ou altere os parametros de entrada.
+2. Selecione um algorítmo.
+3. Informe ou altere os parâmetros de entrada.
 4. Clique em **Executar** ou use `Ctrl+Enter`.
-5. Veja o resultado no painel de saida.
+5. Veja o resultado no painel de saída.
 
-O codigo exibido no editor pode ser alterado e restaurado pelo botao de redefinicao.
+O código exibido no editor pode ser alterado e restaurado pelo botao de redefinição.
 
-### Observacao sobre Java
+### Observação sobre Java
 
-Os algoritmos Java exibidos na interface sao simulados no navegador por funcoes equivalentes em JavaScript. A aplicacao nao compila nem executa um arquivo `.java` durante o uso da pagina.
+Os algoritmos Java exibidos na interface são simulados no navegador por funções equivalentes em JavaScript. A aplicacao não compila nem executa um arquivo `.java` durante o uso da página.
 
 ## 4. Estrutura principal
 
@@ -104,7 +104,7 @@ AlgoritmosFront-End/
 
 ### Java
 
-Instale o JDK e confirme a instalacao:
+Instale o JDK e confirme a instalação:
 
 ```powershell
 java --version
@@ -121,7 +121,7 @@ java Main
 
 ### JavaScript com Node.js
 
-Instale o Node.js e confirme a instalacao:
+Instale o Node.js e confirme a instalação:
 
 ```powershell
 node --version
@@ -135,17 +135,17 @@ cd JS
 node Fibonacci.js
 ```
 
-O arquivo `JS/package.json` possui a dependencia `prompt-sync`. Para instala-la, execute dentro da pasta `JS`:
+O arquivo `JS/package.json` possui a dependência `prompt-sync`. Para instalá-la, execute dentro da pasta `JS`:
 
 ```powershell
 npm install
 ```
 
-Esses comandos sao independentes da abertura do `index.html` no navegador.
+Esses comandos são independentes da abertura do `index.html` no navegador.
 
 ## Solucao de problemas
 
-- **A pagina aparece sem estilos:** confirme que `styles.css` esta na mesma pasta de `index.html`.
-- **Os botoes nao funcionam:** confirme que `app.js` esta na mesma pasta de `index.html` e recarregue a pagina.
-- **O Live Server nao abre:** verifique se a extensao esta instalada e tente abrir o `index.html` pelo Explorer do VS Code.
-- **As alteracoes nao aparecem:** salve os arquivos com `Ctrl+S` e recarregue a pagina com `Ctrl+R`.
+- **A página aparece sem estilos:** confirme que `styles.css` esta na mesma pasta de `index.html`.
+- **Os botões não funcionam:** confirme que `app.js` está na mesma pasta de `index.html` e recarregue a página.
+- **O Live Server não abre:** verifique se a extensão está instalada e tente abrir o `index.html` pelo Explorer do VS Code.
+- **As alterações não aparecem:** salve os arquivos com `Ctrl+S` e recarregue a página com `Ctrl+R`.
