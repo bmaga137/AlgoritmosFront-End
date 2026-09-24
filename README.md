@@ -1,6 +1,6 @@
 # AlgoLab - Algoritmos Front-End
 
-Aplicação web para explorar e executar exemplos de algorítmos em Java e JavaScript. A interface funciona diretamente no navegador e não exige um servidor backend.
+Aplicação web para explorar e executar exemplos de algoritmos em Java e JavaScript. A interface funciona diretamente no navegador e não exige um servidor backend.
 
 ## Requisitos
 
@@ -8,7 +8,7 @@ Aplicação web para explorar e executar exemplos de algorítmos em Java e JavaS
 - Um navegador atualizado, como Google Chrome, Microsoft Edge ou Mozilla Firefox
 - Git, caso o projeto seja obtido de um repositório remoto
 
-Java e Node.js não são necessários para abrir a interface. Eles são opcionais caso voce queira executar os arquivos-fonte Java ou JavaScript diretamente pelo terminal.
+Java e Node.js não são necessários para abrir a interface. Eles são opcionais caso você queira executar os arquivos-fonte Java ou JavaScript diretamente pelo terminal.
 
 ## 1. Obter e sincronizar o projeto no VS Code
 
@@ -17,13 +17,13 @@ Java e Node.js não são necessários para abrir a interface. Eles são opcionai
 1. Instale o Git, se ainda não estiver instalado.
 2. Abra o VS Code.
 3. Abra o terminal integrado pelo menu **Terminal > Novo Terminal**.
-4. Navegue ate a pasta onde deseja salvar o projeto:
+4. Navegue até a pasta onde deseja salvar o projeto:
 
    ```powershell
    cd "C:\caminho\onde\deseja\salvar"
    ```
 
-5. Clone o repositorio:
+5. Clone o repositório:
 
    ```powershell
    git clone URL_DO_REPOSITORIO
@@ -49,7 +49,7 @@ Java e Node.js não são necessários para abrir a interface. Eles são opcionai
 1. Extraia ou copie a pasta `AlgoritmosFront-End` para o computador.
 2. No VS Code, selecione **File > Open Folder...**.
 3. Escolha a pasta `AlgoritmosFront-End`.
-4. Confirme que a arvore de arquivos contem `index.html`, `app.js` e `styles.css` na raiz.
+4. Confirme que a árvore de arquivos contém `index.html`, `app.js` e `styles.css` na raiz.
 
 ## 2. Executar a aplicação
 
@@ -60,7 +60,7 @@ Java e Node.js não são necessários para abrir a interface. Eles são opcionai
 3. Na pasta aberta, clique duas vezes em `index.html`.
 4. A aplicação será aberta no navegador.
 
-Tambem é possivel arrastar o arquivo `index.html` para uma janela do navegador.
+Também é possível arrastar o arquivo `index.html` para uma janela do navegador.
 
 ### Opção recomendada: extensão Live Server
 
@@ -68,36 +68,36 @@ A extensão Live Server atualiza o navegador automaticamente quando os arquivos 
 
 1. No VS Code, abra **Extensions** (`Ctrl+Shift+X`).
 2. Pesquise por **Live Server**, de autoria de Ritwick Dey.
-3. Instale a extensao.
+3. Instale a extensão.
 4. Abra o arquivo `index.html`.
 5. Clique em **Go Live** no canto inferior direito do VS Code.
-6. O navegador abrira um endereco semelhante a `http://127.0.0.1:5500/index.html`.
+6. O navegador abrirá um endereço semelhante a `http://127.0.0.1:5500/index.html`.
 
 Para encerrar, clique novamente em **Port: 5500** na barra de status ou feche o servidor pelo terminal.
 
 ## 3. Usar a aplicação
 
 1. Escolha **Java** ou **JavaScript** no menu lateral.
-2. Selecione um algorítmo.
+2. Selecione um algoritmo.
 3. Informe ou altere os parâmetros de entrada.
 4. Clique em **Executar** ou use `Ctrl+Enter`.
 5. Veja o resultado no painel de saída.
 
-O código exibido no editor pode ser alterado e restaurado pelo botao de redefinição.
+O código exibido no editor pode ser alterado e restaurado pelo botão de redefinição.
 
 ### Observação sobre Java
 
-Os algoritmos Java exibidos na interface são simulados no navegador por funções equivalentes em JavaScript. A aplicacao não compila nem executa um arquivo `.java` durante o uso da página.
+Os algoritmos Java exibidos na interface são simulados no navegador por funções equivalentes em JavaScript. A aplicação não compila nem executa um arquivo `.java` durante o uso da página.
 
 ## 4. Estrutura principal
 
 ```text
 AlgoritmosFront-End/
-|-- index.html          # Pagina principal
-|-- app.js              # Navegacao e execucao dos algoritmos
+|-- index.html          # Página principal
+|-- app.js              # Navegação e execução dos algoritmos
 |-- styles.css          # Estilos da interface
-|-- Java/algoritmos/    # Implementacoes em Java
-`-- JS/                 # Implementacoes em JavaScript
+|-- Java/algoritmos/    # Implementações em Java
+`-- JS/                 # Implementações em JavaScript
 ```
 
 ## 5. Executar os arquivos-fonte opcionalmente
@@ -143,9 +143,9 @@ npm install
 
 Esses comandos são independentes da abertura do `index.html` no navegador.
 
-## Solucao de problemas
+## Solução de problemas
 
-- **A página aparece sem estilos:** confirme que `styles.css` esta na mesma pasta de `index.html`.
+- **A página aparece sem estilos:** confirme que `styles.css` está na mesma pasta de `index.html`.
 - **Os botões não funcionam:** confirme que `app.js` está na mesma pasta de `index.html` e recarregue a página.
 - **O Live Server não abre:** verifique se a extensão está instalada e tente abrir o `index.html` pelo Explorer do VS Code.
 - **As alterações não aparecem:** salve os arquivos com `Ctrl+S` e recarregue a página com `Ctrl+R`.
